@@ -40,7 +40,9 @@ a{
     margin: 10px;
 }
 a:hover{
-     color: rgb(255, 153, 0);
+    transition-duration: 0.3;
+    color: white;
+    background-color: rgb(255, 153, 0);
 }
 
 main{
@@ -50,6 +52,7 @@ main{
     padding: 20px;
     border-bottom:1px solid rgb(255, 153, 0) ;
 }
+
 iframe{
     padding: 20px;
     overflow: hidden;
