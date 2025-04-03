@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing page</title>
     <link rel="stylesheet" href="estilos/fonts.css">
-    <link rel="stylesheet" href="estilos/style.css" media="all">
-    <link rel="stylesheet" href="estilos/media.css" media="screen and (orientation: landscape)">
+    <link rel="stylesheet" href="estilos/style.css" >
+    <link rel="stylesheet" href="estilos/media.css">
 </head>
 <body>
     <header>
@@ -16,28 +16,94 @@
         </div>
 
         <ul>
-            <a href="#">
-                <li>Sobre</li>
+            <a href="#sobre">
+                <li class="link">Sobre</li>
             </a>
-            <a href="#">
-                <li>Contato</li>
+            <a href="#contato">
+                <li class="link">Contato</li>
             </a>
-            <a href="#">
-                <li>Projetos</li>
-            </a>
+            <a href="#servicos"><li class="link">Serviços</li></a>
         </ul>
     </header>
-    <main>
+    <main id="sobre">
         <aside>
-            <h1>Um pouco sobre Renato</h1>
+            <h1>Um pouco sobre <span>Renato</span></h1>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex dolor aliquid optio aperiam amet nisi? Odio voluptatibus illum impedit ad deserunt! Atque tenetur vero inventore molestias numquam explicabo et delectus.</p>
         </aside>
         <article>
-            <h1>Projetos</h1>
-            <iframe src="#" frameborder="0"></iframe>
-
-            <iframe src="#" frameborder="0"></iframe>
+            <h2 class="Projetos">Alguns dos meus projetos:</h2>
+            
+            <iframe src="https://renatolv1234.github.io/projeto-cordel/" frameborder="0"></iframe><br>
+            <a href="https://renatolv1234.github.io/projeto-cordel/" target="_blank">Caso queira visualizar melhor clique aqui</a>
+            
+            <iframe src="https://renatolv1234.github.io/projeto-android/" frameborder="0"></iframe><br>
+            <a href="https://renatolv1234.github.io/projeto-android/" target="_blank">Caso queira visualizar melhor clique aqui</a>
         </article>
     </main>
+    <main id="servicos">
+        <section>
+            <h1>Alguns dos meus serviços:</h1>
+
+            <div class="servicos">
+                <h2>Criação de sites:</h2>
+                <ul>
+                    <li>Landing Pages</li>
+                    <li>Páginas de Vendas</li>
+                    <li>Página de Noticias</li>
+                    <li>Páginas de Fofócas</li>
+                    <li>Páginas de Wiki</li>
+                </ul>
+            </div>
+             
+            <div class="servicos">
+                <h2>Criação de sites:</h2>
+                <ul>
+                    <li>Landing Pages</li>
+                    <li>Páginas de Vendas</li>
+                    <li>Página de Noticias</li>
+                    <li>Páginas de Fofócas</li>
+                    <li>Páginas de Wiki</li>
+                </ul>
+            </div>
+
+            <div class="servicos">
+                <h2>Criação de sites:</h2>
+                <ul>
+                    <li>Landing Pages</li>
+                    <li>Páginas de Vendas</li>
+                    <li>Página de Noticias</li>
+                    <li>Páginas de Fofócas</li>
+                    <li>Páginas de Wiki</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <main id="contato">
+        <aside>
+            <h2>Como posso entrar em <span>contato</span>?</h2>
+            <p>Caso queira entrar em contato para contrato: </p>
+            <form action="">
+
+                <p>
+                    <label for="inome">Seu Nome:</label> <br>
+                    <input type="text" name="inome" id="inome"
+                    placeholder="Nome Completo" required>
+                </p>
+
+                <p>
+                    <label for="iemail">E-mail</label><br>
+                    <input type="email" name="email" id="iemail" placeholder="@gmail" required >
+                </p>
+
+                <p><input type="submit" value="Enviar >"></p>
+            </form>
+        </aside>
+        <article>
+            <img src="" alt="">
+        </article>
+    </main>
+    <footer>
+        <p>Direitos reservados © 2025</p>
+    </footer>
 </body>
 </html>
