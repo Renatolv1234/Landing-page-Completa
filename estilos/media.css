@@ -28,6 +28,9 @@
     a{
         font-size: smaller;
     }
+    .link{
+        margin: 5px;
+    }
     .proj{
         display: none;
     }
